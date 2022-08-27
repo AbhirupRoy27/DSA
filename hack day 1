@@ -1,0 +1,58 @@
+#include <iostream>
+
+using namespace std;
+/*
+int main()
+{
+    int a[50],i,j,k,n,del,f,temp;
+    cout<<"Enter the number elements array: ";
+    cin>>n;
+        cout<<"Enter the array input:";
+            for(i=0;i<n;i++){
+                cin>>a[i];
+    }
+        for(k=0;k<n;k++){
+            cout<<a[k];
+        }cout<<endl;
+            cout<<"Enter the element to delete:";
+            cin>>del;
+            for(i=0;i<n;i++){
+            	if(a[i]==del){
+            		f=1;
+                 for(j=i;j<n-1;j--){
+                    a[j]=a[j+1];
+                 }
+        	}
+        }
+//printing the array:
+	if(f==1){
+			cout<<"New array:";
+        for(k=0;k<n-1;k++){
+            cout<<a[k];
+	}
+}
+	else{
+		cout<<"Not found such number!";
+    }
+}*/
+int main()
+{
+int i;
+int n;
+int k;
+cin>>n;
+int a[n];
+for(i=0;i<n;i++)
+    {
+    cin>>a[i];
+    }
+    cin>>k;
+    for(int i=k;i<n;i++)
+    {
+        a[i]=a[i+1];
+    }
+    for(i =0;i<n-1;i++)
+    cout<<a[i];  
+    return 0;
+}
+
