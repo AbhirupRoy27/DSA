@@ -15,4 +15,4 @@ This program demonstrates the Bubble Sort algorithm, which repeatedly compares a
 
 This program demonstrates a simple and efficient Binary Search algorithm. Just provide a sorted array and a number to find – the code will quickly tell you if it’s there and where! Perfect for beginners exploring algorithms in C++.
 
-[Click here to view the c++ file](bubble_sort.java)
+[Click here to view the c++ file](binary_search.cpp)
