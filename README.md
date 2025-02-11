@@ -11,8 +11,12 @@ This program demonstrates the Bubble Sort algorithm, which repeatedly compares a
 </br>
 [Click here to view the c++ file](bubble_sort.cpp)
 
-### Binary Search in C++
+### Binary Search
 
 This program demonstrates a simple and efficient Binary Search algorithm. Just provide a sorted array and a number to find – the code will quickly tell you if it’s there and where! Perfect for beginners exploring algorithms in C++.
 
 [Click here to view the c++ file](binary_search.cpp)
+
+###Selection Sort
+
+Selection Sort is a simple sorting algorithm that repeatedly finds the smallest element from the unsorted part of the array and swaps it with the first unsorted element, moving the boundary between sorted and unsorted parts one step forward until the entire array is sorted.
