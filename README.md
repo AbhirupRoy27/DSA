@@ -25,12 +25,12 @@ Selection Sort is a simple sorting algorithm that repeatedly finds the smallest 
 
 Merge Sort is a **recursive** sorting algorithm that follows the **divide and conquer** strategy. It breaks an array into two halves, sorts them separately, and merges them back in sorted order.  
 
-## 🌟 Why Use Merge Sort?
+### 🌟 Why Use Merge Sort?
 ✅ **Time Complexity:** O(n log n) (better than O(n²) sorting algorithms)  
 ✅ **Stable Sorting:** Maintains the relative order of equal elements  
 ✅ **Efficient for Large Data:** Works well with linked lists and external sorting  
 
-## 🔍 How It Works
+### 🔍 How It Works
 1️⃣ **Divide:** Split the array into two halves until each half has only one element.  
 2️⃣ **Conquer:** Recursively sort both halves.  
 3️⃣ **Merge:** Combine the sorted halves to form a sorted array.  
